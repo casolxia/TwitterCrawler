@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cas.twitter.carwler.dao.TwiMapper">
+    <insert id="SaveTwi" >
+		insert into tb_twitter_bak(
+			id,username,text,url,
+			retweet,favorite,reply,datetime,crawlertime,isreply)
+		values(
+			#{id,jdbcType=VARCHAR},#{userName,jdbcType=VARCHAR},#{text,jdbcType=VARCHAR},#{url,jdbcType=VARCHAR},
+			#{retweet,jdbcType=VARCHAR},#{favorite,jdbcType=VARCHAR},#{reply,jdbcType=VARCHAR},
+			#{datetime,jdbcType=VARCHAR},#{crawlertime,jdbcType=VARCHAR},#{isReply,jdbcType=VARCHAR}
+		)
+	</insert>
+</mapper>
