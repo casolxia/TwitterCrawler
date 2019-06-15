@@ -13,4 +13,7 @@ resources/application.properties 配置数据库连接
 resources/twi.properties 配置本地代理端口，twitter用户名或关键字
 具体抓取数据，可根据url不同设置规则，可以搜索时间范围，包含与或条件等，本项目目前只做了根据 用户名+时间范围 获取数据
 
+数据示例
+![image](https://github.com/casolxia/TwitterCrawler/blob/master/images/sample.png)
+
 
