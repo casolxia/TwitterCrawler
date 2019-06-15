@@ -1,5 +1,5 @@
 # TwitterCrawler Introduction
-数据来源于Twitter Search,而没有用官方twitter api,可以不受api的限制
+数据来源于Twitter Search,而没有用官方twitter api,可以不受api的限制 /r/n
 WARNING: please be polite and follow the crawler's politeness policy.
 
 # TwitterCrawler Installation
