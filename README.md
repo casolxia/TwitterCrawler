@@ -3,10 +3,12 @@
 WARNING: please be polite and follow the crawler's politeness policy.
 
 # TwitterCrawler Installation
-基于spring boot 2.0,
-[webmagic](http://webmagic.io/)爬虫框架
-需要翻墙，可设置翻墙代理ip、端口
-存储:oracle/mysql
+基于spring boot 2.0  
+[webmagic](http://webmagic.io/)爬虫框架  
+Maven 3.6  
+JDK 1.8  
+需要翻墙，可设置翻墙代理ip、端口  
+存储:oracle/mysql  
 
 # TwitterCrawler Usage
 resources/application.properties 配置数据库连接.
